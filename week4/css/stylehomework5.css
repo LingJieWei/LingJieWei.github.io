@@ -1,0 +1,80 @@
+.parent1 {
+    display: flex;
+}
+
+.parent1 div {
+    flex: 1;
+}
+
+#black1{
+    background-color: #000000;
+}
+
+.parent1{
+    margin-top: 85px;
+    color: #ffffff;
+}
+
+#box8{
+    margin-left: 35px;
+}
+
+#chil4{
+    border-bottom: 3px solid;
+    margin-right: 20px;
+}
+
+#chil5{
+    border-bottom: 3px solid;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#chil6{
+    border-bottom: 3px solid;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+#title3{
+    font-family: 'PT Serif', serif;
+    font-size: 45px;    
+}
+
+#title4{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 46px;
+}
+
+#chil4h{
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+}
+
+#chil5h{
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+}
+
+#chil6h{
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+}
+
+#chil4p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+
+}
+
+#chil5p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+
+}
+
+#chil6p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+
+}

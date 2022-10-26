@@ -1,0 +1,66 @@
+
+
+.container1 {
+    display: flex;
+}
+
+.container1 div {
+    flex: 1;
+}
+
+#box4{
+    background-image: url(../img/homework3.1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 170px;
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-right: 90px;
+}
+
+#box5{
+    border: 7px solid;
+    border-right: 0px; 
+    text-align: right;
+    padding-right: 35px;
+    margin-top: 155px;
+    margin-right: -8px;
+    margin-bottom: 120px;
+}
+
+#title1{
+    font-family: 'Inter', sans-serif;
+    font-size: 53px;
+    padding-top: 20px;
+}
+
+#content1{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+
+#p1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+
+#content2{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+
+#p2{
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+
+#content3{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+
+#p3{
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
