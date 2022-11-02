@@ -120,6 +120,7 @@
     text-align: center;
     justify-content: space-between;
     display: flex;
+    margin-bottom: 1%;
 }
 
 .columns {
@@ -128,5 +129,9 @@
     margin-top: 10px;
 }
 
+.box {
+    margin-top: 1%;
+    border: 2px solid;
+}
 
 
