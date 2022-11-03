@@ -48,7 +48,7 @@
 
 /* Column */
 .column {
-    width: 28%;
+    width: 29%;
     background-color: #F1F1F1;
     margin-top: 10px;
 }
@@ -138,6 +138,18 @@
         width: 100%;
     }
     }
+
+#column3 {
+    width: 49%;
+}
+
+#column4 {
+    width: 49%;
+}
+
+#column5 {
+    width: 99%;
+}
 
 .box {
     margin-top: 1%;
