@@ -23,13 +23,6 @@
     height: 2.5vw;
 }
 
-#gender {
-    background-color: rgb(242, 255, 251);
-    border: none;
-    width: 40vw;
-    height: 2.5vw;
-}
-
 #saddress {
     width: 80.8vw;
 }
@@ -52,11 +45,13 @@
 
 .ep{
     display: flex;
+    height: 5.5vw;
 }
 
 .phone1 {
     margin-left: 0.2vw;
 }
+
 
 .submit1 {
     display: flex;
@@ -71,6 +66,10 @@
 #gender {
     font-size: 1vw;
     color: rgb(0, 109, 78);
+    background-color: rgb(242, 255, 251);
+    border: none;
+    width: 40.5vw;
+    height: 2.5vw;
 }
 
 .phone1 {
@@ -82,4 +81,7 @@
     color: rgb(0, 109, 78);
 }
 
+.farmer {
+    margin-top: 0.5vw;
+}
 
