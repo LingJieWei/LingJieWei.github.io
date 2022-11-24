@@ -1,9 +1,6 @@
 #container {
     margin: auto;
-    max-width: 1920px;
     background: #FFFFFF;
-    border: 1px solid;
-    border-radius: 50px;
     box-shadow: 5px 10px 18px #888888;
     position: relative;
 }
@@ -15,6 +12,16 @@
     font-family: 'inter';
     font-size: 24px;
     margin: 5px 0px;
+}
+
+.head {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: white;
+    box-shadow: 5px 5px 100px #b3b3b3;
+    height: 150px;
+
 }
 
 #duck {
@@ -58,12 +65,11 @@
     background-size: 101%;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 45px 0px;
+    margin: 0px 0px 45px 0px;
 }
 
 .show_content {
     position: absolute;
-    width: 36%;
     left: 60%;
     top: 55px;
     background: rgba(0, 0, 0, 0.36);
@@ -125,7 +131,7 @@
     margin: auto;
     margin-bottom: 45px;
     text-align: center;
-    width: 55%;
+    max-width: 55%;
 
     font-family: 'Poppins';
     font-weight: 200;
@@ -134,9 +140,11 @@
 
 .product_type {
     display: flex;
-    justify-content: space-around;
-    max-width: 1000px;
+    justify-content:space-around;
+
     margin: auto;
+
+    padding: 20px;
 }
 
 .product_word {
@@ -144,7 +152,8 @@
     text-align: center;
     border: 2px solid;
     background-color: black;
-    margin: 20px 0px 40px 0px;
+    margin: 20px 10px 40px 10px;
+    max-width: 100%;
 
     font-family: 'Poppins';
     font-size: 12px;
@@ -156,12 +165,10 @@
     color: #9f9f9f;
 }
 
-.dart_column {
-    width: 25%;
-}
-
-.dart_img {
-    margin: 0% 32% 0% 32%;
+.product_img {
+    max-width: 70%;
+    min-height:60%;
+    margin-left: 15%;
 }
 
 .vision {
@@ -177,7 +184,7 @@
     background-size: cover;
     background-position: 0% 43%;
     margin: auto;
-    max-width: 60%;
+    width: 60%;
     height: 350px;
 }
 
@@ -285,7 +292,9 @@
 .famous_player {
     display: flex;
     justify-content: space-around;
-    max-width: 1000px;
+
+    padding: 25px;
+
     margin: auto;
 }
 
@@ -294,7 +303,7 @@
     font-weight: 200;
     font-size: 16px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
 
     cursor: pointer;
 }
@@ -306,20 +315,28 @@
 }
 
 .img_player {
+    display: flex;
+
     border-radius: 10px;
+    width: 80% ;
+    margin: auto;
+
 }
 
-.player_button {
-    position: relative;
-    left: 44%;
+.ply_but {
+    display: flex;
+    justify-content: center;
+}
 
+
+.player_button {
     cursor: pointer;
 
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
 
-    margin: 30px 0px 40px 0px;
+    margin: 0px 0px 30px 0px;
     width: 130px;
     height: 40px;
     color: white;
@@ -338,7 +355,8 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 20px 0px;
+    margin: auto;
+    padding: 20px 50px;
 }
 
 .first_row h2 {
@@ -353,7 +371,8 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 20px 0px;
+    margin: auto;
+    padding: 20px 50px;
 }
 
 .second_row h2 {
@@ -387,7 +406,14 @@
 }
 
 .promo_item {
+    
+    margin: 20px 10px;
+    height: auto;
     box-shadow: 5px 10px 18px #e3e3e3;
+}
+
+.promo_item img {
+    max-width: 100%;
 }
 
 .promotion_title h1 {
@@ -409,10 +435,13 @@
     padding: 20px 0px 25px 0px;
 }
 
-.promotion_button {
-    position: relative;
-    left: 44%;
+.promo_but {
+    display: flex;
+    justify-content:center;
 
+}
+
+.promotion_button {
     cursor: pointer;
 
     font-family: 'Poppins';
@@ -428,7 +457,7 @@
 
 .company {
     position: relative;
-    margin: 80px;
+    margin: 80px 0px 0px 0px;
 }
 
 .companys {
@@ -488,8 +517,8 @@
 
 .closebtn {
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 30px;
+    left: 50px;
 }
 
 .overlay a {
@@ -514,18 +543,151 @@
     display: none;
 }
 
-.arrow{
+.arrow {
     display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .item1 {
+        grid-area: header1;
+    }
+
+    .item2 {
+        grid-area: header2;
+    }
+
+    .item3 {
+        grid-area: body1;
+    }
+
+    .item4 {
+        grid-area: body2;
+    }
+
+    .item5 {
+        grid-area: led1;
+    }
+
+    .item6 {
+        grid-area: led2;
+    }
+
+    .item7 {
+        grid-area: footer1;
+    }
+
+    .item8 {
+        grid-area: footer2;
+    }
+
+    .first_row {
+        display: grid;
+        grid-template-areas:
+            'header1 header2'
+            'body1 body2';
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .second_row {
+        display: grid;
+        grid-template-areas:
+            'led1 led2'
+            'footer1 footer2';
+        gap: 10px;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
 
-    .famous_player {
-        display: grid;
+    .show_content {
+        position: relative;
+        left: 0%;
+        top: 450px;
+        width: 500px;
+        margin: auto;
     }
+
+    .show_content p {
+        max-width: 100%;
+    }
+
+    .product {
+        margin-top: 380px;
+    }
+
+    .companys {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .company_column {
+        position: absolute;
+        top: 0px;
+        left: 5%;
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
+
+    .item1 {
+        grid-area: header1;
+    }
+
+    .item2 {
+        grid-area: header2;
+    }
+
+    .item3 {
+        grid-area: body1;
+    }
+
+    .item4 {
+        grid-area: body2;
+    }
+
+    .item5 {
+        grid-area: led1;
+    }
+
+    .item6 {
+        grid-area: led2;
+    }
+
+    .item7 {
+        grid-area: footer1;
+    }
+
+    .item8 {
+        grid-area: footer2;
+    }
+
+    .first_row {
+        display: grid;
+        grid-template-areas:
+            'header1'
+            'header2'
+            'body1'
+            'body2';
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .second_row {
+        display: grid;
+        grid-template-areas:
+            'led1'
+            'led2'
+            'footer1'
+            'footer2';
+        gap: 10px;
+        padding: 10px;
+    }
+
     .h_link a {
         display: none;
     }
@@ -539,24 +701,29 @@
     }
 
     .shop {
+        position: relative;
+        bottom: 65px;
         height: 30px;
     }
 
     .icon {
+        position: relative;
+        bottom: 65px;
         display: block;
     }
 
     .show_content {
-    position: relative;
-    left: 10%;
-    top: 450px;
-    width: 500px;
+        position: relative;
+        left: 0%;
+        top: 450px;
+        width: 500px;
+        margin: auto;
     }
 
     .show_content p {
         max-width: 100%;
     }
-    
+
     .product {
         margin-top: 380px;
     }
@@ -566,60 +733,60 @@
     }
 
     .dart_column {
-        width: 260px;
+        
+       max-width: 100%;
     }
 
+    #dart_img {
+        margin-left: 33%;
+    }
+
+
+
     .visions {
-    background-position: 55%;
+        background-position: 55%;
+        width: 80%;
+        margin: auto;
     }
 
     .vision_column {
         position: relative;
-        left: 10%;
+        left: 0%;
         top: 60px;
-        width: 500px;
-    }   
+        width: 68%;
+        margin: auto;
+    }
 
     .club {
-        margin-top: 450px;
+        margin-top: 400px;
     }
 
     .famous_player {
         display: grid;
     }
 
-    .player_button {
-        position: relative;
-        left: 38%;
-    }
-
-    .first_row{
+    .first_row {
         display: grid;
     }
 
-    .second_row{
+    .second_row {
         display: grid;
     }
 
-    .promo_item{
+    .promo_item {
         margin-top: 10px;
     }
-
-    .promotion_button{
-        left: 40%;
+    
+    .companys {
+        margin-left: 0px;
+        width: 100%;
     }
 
     .company_column {
         position: absolute;
         top: 0px;
         left: 5%;
-        width: 500px;
-    }
-
-    .companys {
-        margin-left: 0px;
-        max-width: 100%;
-        height: 900px;
+        width: 74%;
     }
 
     .head {
@@ -641,9 +808,10 @@
 
     .show_content {
         position: relative;
-        left: 3%;
+        left: 0%;
         top: 450px;
-        width: 400px;
+        width: 390px;
+        margin: auto;
     }
 
     .product {
@@ -652,25 +820,14 @@
 
     .vision_column {
         position: relative;
-        left: 10%;
+        left: 0%;
         top: 60px;
-        width: 350px;
-    }   
+        width: 65%;
+        margin: auto;
+    }
 
     .club {
         margin-top: 400px;
-    }
-
-    .company_column {
-        position: absolute;
-        left: 0px;
-        width: 310px;
-    }
-
-    .companys {
-        margin-left: 0px;
-        max-width: 100%;
-        height: 900px;
     }
 
     .dart_column {
@@ -697,49 +854,65 @@
         display: none;
     }
 
-    .famous_player {
+    .show_player {
         display: flex;
-    }
-
-    .player_button {
-        left: 32%;
+        justify-content: space-around;
     }
 
     #safe_item {
-        display: block ;
-        margin-left: 27px;
+        display: block;
     }
 
     .promo_item {
         display: none;
     }
 
-    .promotion_item {
+    .show_item {
         display: flex;
         justify-content: space-around;
     }
 
+    .arrow {
+        padding: 10px 10px;
+    }
+
+    #arrow_left {
+        padding-left: 20px;
+    }
+
+    #arrow_right {
+        padding-right: 20px;
+    }
+
     .promotion_button {
-        left: 32%;
+        margin-top: 0px;
+    }
+
+    .second_row {
+        display: none;
     }
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .vision_column {
         position: relative;
-        left: 8%;
+        left: 0%;
         top: 60px;
-        width: 300px;
-    }   
-
-    .company_column {
-        position: relative;
-
-        width: 400px;
+        width: 60%;
+        margin: auto;
     }
 
     .companys {
-        width: 400px;
+        margin-left: 0px;
+        width: 100%;
     }
+
+    .company_column {
+        position: absolute;
+        top: 0px;
+        left: 3%;
+        width: 74%;
+    }
+
 }
