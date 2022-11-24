@@ -732,4 +732,14 @@
         top: 60px;
         width: 300px;
     }   
+
+    .company_column {
+        position: relative;
+
+        width: 400px;
+    }
+
+    .companys {
+        width: 400px;
+    }
 }
