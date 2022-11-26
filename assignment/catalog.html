@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Catalog</title>
+    <link href="css/catalog_style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;700&family=Poppins:wght@100;200;300;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div class="head">
+
+            <div class="h_title">
+
+                <h1 id="duck" class="dd"> Duck&nbsp; </h1>
+                <h1 class="dd"> Dart </h1>
+
+            </div>
+
+            <div class="logo">
+
+                <a href="javascript:void(0);" class="icon" onclick="openNav()"><img src="img/bar.png" height="30"
+                        width="" /></a>
+
+
+                <a href="#"><img class="search" src="img/search.png" height="16" width="" /></a>
+
+                <div class="h_link">
+
+                    <a id="home" href="#">HOME</a>
+                    <a class="promotion_link" href="#">PROMOTION</a>
+                    <a class="" href="#">PRODUCTS & SERVICES</a>
+                    <a class="" href="#">PLAYER</a>
+                    <a class="" href="#">COMPANY</a>
+                    <a class="" href="#">BLOG</a>
+                    <a class="" href="#">CONTACT</a>
+
+                </div>
+
+                <div id="myNav" class="overlay">
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/cancel.png"
+                            height="35" width="" /></a>
+
+                    <div class="overlay-content">
+                        <a class="promotion_link" href="#">PROMOTION</a>
+                        <a class="" href="#">PRODUCTS & SERVICES</a>
+                        <a class="" href="#">PLAYER</a>
+                        <a class="" href="#">COMPANY</a>
+                        <a class="" href="#">BLOG</a>
+                        <a class="" href="#">CONTACT</a>
+                    </div>
+
+                </div>
+
+                <div class="h_logo">
+
+                    <a href="#"><img class="shop" src="img/shopcart.png" height="16" width="" /></a>
+                    <a href="#"><img class="" src="img/heart.png" height="16" width="" /></a>
+                    <a href="#"><img class="" src="img/user.png" height="16" width="" /></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+    
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+    
+        </script>
+
+    </div>
+
+</body>
+</html>
