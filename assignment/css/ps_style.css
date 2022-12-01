@@ -14,6 +14,10 @@
     margin: 5px 0px;
 }
 
+.h_link a:hover {
+    color: #cfcfcf;
+}
+
 .head {
     position: sticky;
     top: 0;
