@@ -99,8 +99,112 @@
     margin-top: 30px;
 }
 
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 8px;
+    font-family: 'Poppins';
+}
+
+.footer_left {
+    width: 20%;
+    margin: 20px 20px 30px 70px;
+    font-family: 'inter';
+}
+
+.f_title {
+    display: flex;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#duck2 {
+    color: rgb(115, 115, 115);
+}
+
+
+.social_png {
+    margin: 10px;
+}
+
+.copyright {
+    margin: 50px 0px 20px 10px;
+}
+
+
+.service {
+    width: 10%;
+    padding: 40px;
+}
+
+.service h1 {
+    cursor: pointer;
+}
+
+.service h1:hover {
+    color: rgb(115, 115, 115);
+}
+
+.blog p:hover {
+    color: rgb(115, 115, 115);
+}
+
+.blog {
+    width: 20%;
+    padding: 40px;
+}
+
+.blog p {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.contact {
+    width: 13%;
+    padding: 40px;
+}
+
+.contact p {
+    font-size: 13px;
+}
+
+.address {
+    width: 20%;
+    padding: 40px 65px 40px 40px;
+    font-size: 13px;
+}
+
+.hiden_item {
+    display: none;
+}
+
 .icon {
     display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .footer_left {
+        margin: 20px 20px 30px 10px;
+    }
+
+    .address {
+        padding: 40px 10px 10px 10px;
+        width: 5%;
+    }
+
+    .blog {
+        padding: 40px 10px 10px 10px;
+        width: 10%;
+    }
+
+    .contact {
+        padding: 40px 10px 10px 10px;
+        width: 18%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -131,6 +235,56 @@
 
     .head {
         height: 100px;
+    }
+
+    .service {
+        display: none;
+    }
+
+    .blog {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .address {
+        display: none;
+    }
+
+    .social_img {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .footer {
+        display: grid;
+    }
+
+    .footer_left {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .hiden_item {
+        margin: 10px 10px 30px 13px;
+        display: block;
+    }
+
+    .pns {
+        display: flex;
+    }
+
+    .ci {
+        display: flex;
+    }
+
+    .address {
+        padding: 1px;
     }
 
 }
