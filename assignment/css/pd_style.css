@@ -103,67 +103,45 @@
     display: none;
 }
 
-.location {
-    background-color: #d4d4d4;
-    height: 130px;
+.promotion {
+    margin-top: 85px;
+    max-width: 80%;
+    margin: auto;
+
 }
 
-.location h1{
-    padding: 30px 90px 10px 90px ;
-    margin: 0px;
-    font-family: 'inter';
-    font-size: 26px;
+.related_pro {
+    box-shadow: 5px 10px 18px #888888;
 }
 
-.location a{
-    margin: 90px;
-    font-size: 13px;
-    text-decoration: none;
-    color: black;
-    font-family: 'poppins';
-}
-
-.location a:hover {
-    color: #898989;
-}
-
-.content {
+.first_row_column {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    padding: 20px 50px;
+
+    align-items: center;
 }
 
-.item_show {
-    background-color: #f9f9f9;
-    margin: 50px;
-    width: 70%;
+.show_arrow {
+    padding: 10px;
 }
 
-.is_title{
-    display: flex;
+.first_row h2 {
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-bottom: 0px;
+
+    cursor: pointer;
 }
 
-.is_title p {
-    padding: 20px;
-    margin: 0;
+.first_row h2:hover {
+    color: rgb(115, 115, 115);
 }
-
-.is_item {
-    display: flex;
-}
-
-
 
 .recently_vie_pro {
     box-shadow: 5px 10px 18px #888888;
-    max-width: 80%;
-    margin: auto;
-}
-
-.rvp {
-    text-align: center;
-    padding-top: 10px;
-
-    font-family: 'poppins';
 }
 
 .second_row_column {
@@ -171,13 +149,8 @@
     justify-content: space-around;
     text-align: center;
     margin: auto;
-    padding: 20px 20px;
+    padding: 20px 50px;
 
-    align-items: center;
-}
-
-.second_row {
-    display: flex;
     align-items: center;
 }
 
@@ -193,16 +166,8 @@
     color: rgb(115, 115, 115);
 }
 
-.arrow {
+.show_arrow {
     display: none;
-}
-
-#show_arrow_left {
-    padding-left: 15px;
-}
-
-#show_arrow_right {
-    padding-right: 15px;
 }
 
 .price {
@@ -250,12 +215,167 @@
     padding: 25px 0px 0px 0px;
 }
 
+.arrow {
+    display: none;
+}
+
+.stage {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-family: 'poppins';
+}
+
+.stage p {
+    margin: 0px;
+    padding: 30px 30px 30px 150px;
+}
+
+.product_show {
+    display: flex;
+    box-shadow: 5px 10px 18px #888888;
+    margin: 50px;
+}
+
+.product_img {
+    padding: 80px 70px;
+    width: 55%;
+}
+
+.big_img img {
+    padding-left: 70px;
+    width: 85%;
+}
+
+.small_img {
+    display: flex;
+}
+
+.sm_img {
+    width: 90%;
+    margin: 10px;
+}
+
+.product_info {
+    padding: 60px 80px 60px 60px;
+    width: 75%;
+}
+
+.product_info p {
+    margin: 40px 0px;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+
+.product_info h1 {
+    font-family: 'poppins';
+    font-size: 25px;
+}
+
+
+.pro_material {
+    margin: 90px 0px 10px 0px;
+}
+
+.pro_material p {
+    margin: 10px 0px;
+}
+
+.button {
+    display: flex;
+}
+
+.plus_min_button {
+    border: 1px solid;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+.plus_min_button h1 {
+    font-family: 'poppins';
+    font-size: 17px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.show_button {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'inter';
+    width: 60%;
+}
+
+.heart_column {
+    padding: 20px;
+}
+
+.des_title {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'poppins';
+}
+
+.des_title p {
+    padding: 10px;
+}
+
+.nomal {
+    display: flex;
+    font-weight: bolder;
+}
+
+.product_description {
+    text-align: center;
+}
+
+.des_content {
+    text-align: center;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'poppins';
+}
+
+.des_column {
+    width: 65%;
+
+}
+
+.rp {
+    text-align: center;
+    padding-top: 10px;
+
+    font-family: 'poppins';
+}
+
+.related_pro {
+    margin-bottom: 70px;
+}
+
+.rvp {
+    text-align: center;
+    padding-top: 10px;
+
+    font-family: 'poppins';
+}
+
+.recently_vie_pro {
+    margin-bottom: 70px;
+}
+
 .footer {
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
 
     font-size: 8px;
     font-family: 'Poppins';
@@ -335,6 +455,22 @@
 
 @media screen and (max-width: 1100px) {
 
+    .item1 {
+        grid-area: header1;
+    }
+
+    .item2 {
+        grid-area: header2;
+    }
+
+    .item3 {
+        grid-area: body1;
+    }
+
+    .item4 {
+        grid-area: body2;
+    }
+
     .item5 {
         grid-area: led1;
     }
@@ -351,6 +487,15 @@
         grid-area: footer2;
     }
 
+    .first_row_column {
+        display: grid;
+        grid-template-areas:
+            'header1 header2'
+            'body1 body2';
+        gap: 10px;
+        padding: 10px;
+    }
+
     .second_row_column {
         display: grid;
         grid-template-areas:
@@ -360,11 +505,43 @@
         padding: 10px;
     }
 
-    .show_arrow {
+    .product_info {
+        width: 50%;
+        padding: 70px 60px 20px 20px;
+        transition: 1s;
+    }
+
+    .product_info p {
+        font-size: 12px;
+    }
+
+    .product_info h1 {
+        font-size: 15px;
+    }
+
+    .button {
+        display: grid;
+    }
+
+    .plus_min_button {
+        width: 200px;
+    }
+
+    .show_button {
+        width: 250px;
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .heart_column {
+        width: 60%;
+    }
+
+    .pro_material {
         display: none;
     }
 
-    }
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -418,6 +595,7 @@
         height: 100px;
     }
 
+
     .service {
         display: none;
     }
@@ -468,6 +646,35 @@
         padding: 1px;
     }
 
+    .product_show {
+        display: grid;
+
+    }
+
+    .product_img {
+        width: 80%;
+        padding: 10%;
+    }
+
+    .big_img img {
+        padding-left: 15%;
+    }
+
+    .product_info {
+        width: 80%;
+        padding: 3% 10%;
+    }
+
+    .product_info h1 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .product_info p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -480,6 +687,10 @@
         font-size: 40px;
         top: 15px;
         right: 35px;
+    }
+
+    #safe_item {
+        display: block;
     }
 
     #safe_item2 {
@@ -500,6 +711,8 @@
         display: block;
     }
 
+
+
 }
 
 @media screen and (max-width: 428px) {
@@ -514,5 +727,9 @@
 
     .icon {
         bottom: 58px;
+    }
+
+    .des_content p {
+        font-size: 14px;
     }
 }
