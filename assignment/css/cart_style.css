@@ -108,14 +108,14 @@
     height: 130px;
 }
 
-.location h1{
-    padding: 30px 90px 10px 90px ;
+.location h1 {
+    padding: 30px 90px 10px 90px;
     margin: 0px;
     font-family: 'inter';
     font-size: 26px;
 }
 
-.location a{
+.location a {
     margin: 90px;
     font-size: 13px;
     text-decoration: none;
@@ -132,14 +132,38 @@
     justify-content: center;
 }
 
+.empty_column {
+    width: 53.5%;
+}
+
+.i_price {
+    width: 10%;
+}
+
+.i_qty {
+    width: 6%;
+}
+
+.i_total {
+    width: 10%;
+}
+
+.empty_column_back {
+    width: 4%;
+}
+
 .item_show {
     background-color: #f9f9f9;
     margin: 50px;
     width: 70%;
+
+    font-family: 'poppins';
 }
 
-.is_title{
+.is_title {
     display: flex;
+    text-align: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
 }
 
 .is_title p {
@@ -149,6 +173,171 @@
 
 .is_item {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
+
+}
+
+.is_itme_show {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+}
+
+.is_itme_show img {
+    max-width: 250px;
+    padding: 15px;
+}
+
+.is_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.is_quantity {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.is_quantity img {
+    border: 1px solid black;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.is_quantity p {
+    margin: 5px;
+}
+
+.is_total_price {
+    padding: 0px 55px;
+}
+
+.dustbin {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.is_voucher {
+    background-color: #f9f9f9;
+    margin: 50px 35px 50px 0px;
+    max-height: 350px;
+
+    font-family: 'inter';
+}
+
+.upper_voucher {
+    display: flex;
+    justify-content: space-around;
+}
+
+.upper_voucher p {
+    padding: 20px 8px 10px 20px;
+    margin: 0px;
+}
+
+.voucher_optional_img {
+    padding-top: 5px;
+    padding: 13px 20px 0px 3px;
+}
+
+.voucher_optional {
+    align-items: center;
+    display: flex;
+}
+
+.voucher_optional a {
+    padding: 20px 5px 10px 5px;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+
+    font-size: 13px;
+}
+
+.voucher_button {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-around;
+}
+
+.enter_input {
+    background-color: #f9f9f9;
+    padding: 10px 3%;
+    margin: 10px 0px;
+    border: 1px solid;
+    font-family: 'inter';
+    width: 60%;
+
+}
+
+.redeem_button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 3%;
+    margin: 10px 0px;
+    border: 1px solid black;
+    font-family: 'inter';
+    width: 30%;
+    cursor: pointer;
+}
+
+.redeem_button:hover {
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.is_sub {
+    font-size: 16px;
+    margin: 10px 20px 5px 20px;
+}
+
+.is_ship {
+    font-size: 13px;
+    color: rgb(180, 180, 180);
+    margin: 5px 20px 10px 20px;
+}
+
+.foot_voucher {
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.is_total {
+    padding-right: 10px;
+}
+
+.is_vat {
+    color: rgb(180, 180, 180);
+    font-size: 13px;
+}
+
+.footer_button {
+    padding: 0px 20px;
+}
+
+.check_button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 10%;
+    margin: 5px 0px;
+    border: 2px solid;
+    width: 95%;
+    font-family: 'inter';
+
+    cursor: pointer;
+}
+
+.check_button:hover {
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+    border: none;
 }
 
 
@@ -164,6 +353,10 @@
     padding-top: 10px;
 
     font-family: 'poppins';
+}
+
+.rvp h1 {
+    font-size: 30px;
 }
 
 .second_row_column {
@@ -364,7 +557,46 @@
         display: none;
     }
 
+    .content {
+        display: grid;
     }
+
+    .item_show {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .is_voucher {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .voucher_button {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .enter_button {
+        width: 65%;
+    }
+
+    .redeem_button {
+        width: 30%;
+    }
+
+    .check_button {
+        width: 95%;
+    }
+
+    .footer_button {
+        display: flex;
+        justify-content: center;
+    }
+
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -468,6 +700,47 @@
         padding: 1px;
     }
 
+    .is_title {
+        display: none;
+    }
+
+    .is_item {
+        display: grid;
+    }
+
+    .is_bottom {
+        justify-content: flex-start;
+    }
+
+    .is_total_price {
+        display: none;
+    }
+
+    .is_itme_show {
+        display: grid;
+        width: 100%;
+    }
+
+    .is_img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .is_contain {
+        display: flex;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+
+    .is_price p {
+        padding: 0px 20px;
+    }
+
+    .is_quantity {
+        padding: 20px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -514,5 +787,13 @@
 
     .icon {
         bottom: 58px;
+    }
+
+    .location a {
+        margin: 23%;
+    }
+
+    .rvp h1 {
+        font-size: 25px;
     }
 }

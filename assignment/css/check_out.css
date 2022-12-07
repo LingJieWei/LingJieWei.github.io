@@ -185,6 +185,378 @@
     display: none;
 }
 
+.location {
+    background-color: #d4d4d4;
+    height: 130px;
+}
+
+.location h1{
+    padding: 30px 90px 10px 90px ;
+    margin: 0px;
+    font-family: 'inter';
+    font-size: 26px;
+}
+
+.location a{
+    margin: 90px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-family: 'poppins';
+}
+
+.location a:hover {
+    color: #898989;
+}
+
+.user_detail {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.personal_detail {
+    background-color: #f9f9f9;
+    margin-right: 50px;
+
+    width: 65%;
+    max-height: 820px;
+
+    margin: 10px;
+}
+
+.personal_column {
+    padding: 20px;
+}
+
+#gender_button {
+    background-color: #f9f9f9;
+    color: black;
+    display: flex;
+}
+
+.gender_btn {
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid rgb(176, 176, 176);
+    width: 30%;
+    height: 35px;
+
+    font-family: 'poppins';
+}
+
+.active, .gender_btn:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.pd_form {
+    background-color: #ffffff;
+    margin: 5px;
+    border: 1px solid rgb(176, 176, 176);
+    width: 97%;
+    height: 35px;
+
+    font-family: 'poppins';
+}
+
+.pd_select {
+    background-color: #ffffff;
+    margin: 5px;
+    border: 1px solid rgb(176, 176, 176);
+    width: 98%;
+    height: 35px;
+
+    font-family: 'poppins';
+}
+
+.form_flex {
+    display: flex;
+    width: 100%;
+}
+
+.required {
+    font-family: 'poppins';
+    font-size: 12px;
+    color: #949494;
+    margin: 5px;
+}
+
+.password {
+    font-family: 'poppins';
+    font-size: 12px;
+    color: #949494;
+    margin: 5px 24px;
+}
+
+.pd_check {
+    font-family: 'poppins';
+    font-size: 14px;
+}
+
+.payment_detail {
+    font-family: 'poppins';
+    width: 40%;
+}
+
+.pay_img {
+    height: 100%;
+    padding: auto;
+}
+
+.payment_img {
+    max-height: 60px;
+    max-width: 60px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.pd_checkbox {
+    display: flex;
+    align-items: center;
+
+}
+
+#pd_checkbox1 p {
+    padding-right: 130px;
+    font-family: 'poppins';
+    font-size: 15px;
+}
+
+
+#pd_checkbox2 p {
+    padding-right: 95px;
+    font-family: 'poppins';
+    font-size: 15px;
+}
+
+
+#pd_checkbox3 p {
+    padding-right: 59px;
+    font-family: 'poppins'; 
+    font-size: 15px;
+}
+
+.pd_forms1 {
+    background-color: #ffffff;
+    margin: 5px;
+    border: 1px solid rgb(176, 176, 176);
+    width: 46.4%;
+    height: 35px;
+
+    font-family: 'poppins';
+}
+
+
+.payment_choose {
+    background-color: #f9f9f9;
+    display: flex;
+    margin: 10px;
+}
+
+.card_detail {
+    background-color: #f9f9f9;
+    margin: 10px;
+}
+
+.pd_forms {
+    background-color: #ffffff;
+    margin: 5px;
+    border: 1px solid rgb(176, 176, 176);
+    width: 95%;
+    height: 35px;
+
+    font-family: 'poppins';
+
+}
+
+.item_detail {
+
+    margin-left: 50px; 
+    width: 50%;
+    margin: 10px;
+}
+
+.ip_item {
+    background-color: #f9f9f9;
+}
+
+.ip_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.ip_title {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    font-family: 'inter';
+    font-size: 15px;
+}
+
+.art {
+    padding: 10px 8%;
+}
+
+.tot {
+    padding: 10px 4%;
+}
+
+.pd_img {
+    max-width: 40%;
+}
+
+.ip_items {
+    font-family: 'inter';
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.is_voucher {
+    background-color: #f9f9f9;
+    font-family: 'inter';
+}
+
+.upper_voucher {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper_voucher p {
+    padding: 20px 8px 10px 20px;
+    margin: 0px;
+}
+
+.voucher_optional_img {
+    padding-top: 5px;
+    padding: 13px 20px 0px 3px;
+}
+
+.voucher_optional {
+    align-items: center;
+    display: flex;
+}
+
+.voucher_optional a{
+    padding: 20px 5px 10px 5px;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+
+    font-size: 13px;
+}
+
+.voucher_button {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+
+.enter_input {
+    background-color: #f9f9f9;
+    padding: 10px 3%;
+    margin: 10px 0px;
+    border: 1px solid;
+    font-family: 'inter';
+    width: 60%;
+
+}
+
+.redeem_button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 3%;
+    margin: 10px 0px;
+    border: 1px solid black;
+    font-family: 'inter';
+    width: 30%;
+    cursor: pointer;
+}
+
+.redeem_button:hover {
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.is_sub {
+    font-size: 16px;
+    margin: 30px 20px 5px 20px;
+}
+
+.ship {
+    display: flex;
+    justify-content: space-between;
+}
+
+.is_ship {
+    font-size: 13px;
+    color: rgb(180, 180, 180);
+    margin: 5px 10px 5px 20px;
+}
+
+.is_ship1 {
+    font-size: 13px;
+    color: rgb(180, 180, 180);
+    margin: 5px 10px 30px 20px;
+}
+
+#is_ship2 {
+    margin-right: 20px;
+}
+
+.foot_voucher {
+    padding: 10px 20px;
+    align-items: center;
+
+    font-size: 15px;
+}
+
+.is_total {
+    margin: 30px 20px 5px 0px;
+    padding-right: 10px;
+}
+
+.is_vat {
+    color: rgb(180, 180, 180);
+    font-size: 13px;
+    margin: 5px 20px 5px 0px;
+}
+
+#is_ship3 {
+    margin-right: 20px;
+}
+
+.footer_button {
+    padding: 0px 20px;
+}
+
+.check_button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 10%;
+    margin: 5px 0px;
+    border: 2px solid;
+    width: 101%;
+    font-family: 'inter';
+    cursor: pointer;
+}
+
+.check_button:hover {
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
 @media screen and (max-width: 1000px) {
 
     .footer_left {
@@ -205,6 +577,23 @@
         padding: 40px 10px 10px 10px;
         width: 18%;
     }
+
+    .user_detail {
+        display: grid;
+    }
+
+    .personal_detail {
+        width: 100%;
+    }
+
+    .payment_detail {
+        width: 103%;
+    }
+
+    .item_detail {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -315,5 +704,9 @@
 
     .icon {
         bottom: 58px;
+    }
+
+    .personal_detail {
+        max-height: 900px;
     }
 }
