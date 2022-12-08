@@ -170,7 +170,6 @@
 
 .product_img {
     max-width: 70%;
-    min-height:60%;
     margin-left: 15%;
 }
 
@@ -598,6 +597,13 @@
 .arrow {
     display: none;
 }
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 1200px) {
 

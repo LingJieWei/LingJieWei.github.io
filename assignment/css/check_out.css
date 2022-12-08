@@ -557,6 +557,13 @@
     border: none;
 }
 
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 1000px) {
 
     .footer_left {
