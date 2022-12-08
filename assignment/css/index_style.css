@@ -170,6 +170,7 @@
 
 .product_img {
     max-width: 70%;
+
     margin-left: 15%;
 }
 
@@ -811,10 +812,6 @@
     .dart_column {
         
        max-width: 100%;
-    }
-
-    #dart_img {
-        margin-left: 33%;
     }
 
 
