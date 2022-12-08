@@ -697,6 +697,22 @@
         right: 35px;
     }
 
+    .user_detail {
+        margin: 30px;
+    }
+    
+    .pd_form{
+        width: 94%;
+    }
+
+    .pd_forms{
+        width: 94%;
+    }
+
+    .pd_select {
+        width: 96%;
+    }
+
 }
 
 @media screen and (max-width: 428px) {
