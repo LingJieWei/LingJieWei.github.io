@@ -328,7 +328,7 @@
     padding: 10px 10%;
     margin: 5px 0px;
     border: 2px solid;
-    width: 95%;
+    width:100%;
     font-family: 'inter';
 
     cursor: pointer;
@@ -594,12 +594,7 @@
     }
 
     .check_button {
-        width: 95%;
-    }
-
-    .footer_button {
-        display: flex;
-        justify-content: center;
+        width: 100%;
     }
 
 }
