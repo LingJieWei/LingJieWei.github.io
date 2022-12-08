@@ -11,7 +11,7 @@
     justify-content: center;
     font-family: 'inter';
     font-size: 24px;
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 .h_link a:hover {
@@ -47,7 +47,7 @@
 
 .h_link a {
     font-family: 'inter';
-    font-size: 13px;
+    font-size: 15px;
     padding: 0px 6px;
     text-decoration: none;
     color: black;
@@ -55,11 +55,18 @@
 
 #home {
     color: rgb(145, 145, 145);
-    ;
 }
 
-.h_logo a {
+#ps {
+    color: rgb(145, 145, 145);
+}   
+
+.h_logo img {
     padding: 0px 6px;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 .overlay {
@@ -132,8 +139,6 @@
     font-family: 'Poppins';
     font-size: 14px;
     margin-bottom: 0px;
-
-    cursor: pointer;
 }
 
 .first_row h2:hover {
@@ -158,8 +163,6 @@
     font-family: 'Poppins';
     font-size: 14px;
     margin-bottom: 0px;
-
-    cursor: pointer;
 }
 
 .second_row h2:hover {
@@ -188,8 +191,6 @@
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 12px;
-
-    cursor: pointer;
 }
 
 .promo_item {
@@ -268,7 +269,7 @@
     display: flex;
 }
 
-.sm_img {
+.sm_img{
     width: 90%;
     margin: 10px;
 }
@@ -281,7 +282,7 @@
 .product_info p {
     margin: 40px 0px;
     font-family: 'poppins';
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .product_info h1 {
@@ -325,7 +326,6 @@
     color: white;
     font-family: 'inter';
     width: 70%;
-    cursor: pointer;
 }
 
 .show_button:hover {
@@ -347,7 +347,6 @@
 
 .des_title p {
     padding: 10px;
-    cursor: pointer;
 }
 
 .nomal {
@@ -445,10 +444,6 @@
     padding: 40px;
 }
 
-.service h1 {
-    cursor: pointer;
-}
-
 .service h1:hover {
     color: rgb(115, 115, 115);
 }
@@ -464,7 +459,6 @@
 
 .blog p {
     font-size: 13px;
-    cursor: pointer;
 }
 
 .contact {

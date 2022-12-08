@@ -11,7 +11,7 @@
     justify-content: center;
     font-family: 'inter';
     font-size: 24px;
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 .h_link a:hover {
@@ -46,7 +46,7 @@
 
 .h_link a {
     font-family: 'inter';
-    font-size: 13px;
+    font-size: 15px;
     padding: 0px 6px;
     text-decoration: none;
     color: black;
@@ -54,11 +54,18 @@
 
 #home {
     color: rgb(145, 145, 145);
-    ;
 }
 
-.h_logo a {
+#ps {
+    color: rgb(145, 145, 145);
+}   
+
+.h_logo img {
     padding: 0px 6px;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 .img_show {
@@ -98,7 +105,6 @@
 }
 
 .show_button {
-    cursor: pointer;
     font-family: 'Poppins';
     font-weight: 700;
     margin: 15px 0px;
@@ -138,7 +144,7 @@
 
     font-family: 'Poppins';
     font-weight: 200;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .product_type {
@@ -209,12 +215,11 @@
 .vision_column p {
     font-family: 'Poppins';
     font-weight: 200;
-    font-size: 15px;
+    font-size: 16px;
     max-width: 95%;
 }
 
 .vision_button {
-    cursor: pointer;
     font-family: 'Poppins';
     font-weight: 700;
     margin: 15px 0px;
@@ -241,20 +246,20 @@
 .club h1 {
     padding-top: 40px;
     font-size: 30px;
+    font-family: 'inter';
 }
 
 .club p {
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 200;
     width: 57%;
     margin: auto;
-    padding: 0px 0px 35px 0px;
+    padding: 0px 0px 30px 0px;
 }
 
 .email_type {
     width: 35%;
     height: 40px;
-    border-radius: 5px;
     margin-bottom: 40px;
     font-family: 'inter';
     font-weight: 300;
@@ -262,19 +267,17 @@
 }
 
 .subscribe {
-    cursor: pointer;
     font-family: 'Poppins';
     width: 170px;
     height: 50px;
     margin: 0px 20px 0px 20px;
-    background-color: rgb(0, 75, 0);
-    color: white;
-    border-radius: 5px;
-    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
 }
 
 .subscribe:hover {
-    background-color: rgb(0, 89, 0);
+    background-color: rgb(74, 74, 74);
 }
 
 .player {
@@ -295,7 +298,7 @@
 .player_content {
     font-family: 'poppins';
     font-weight: 200;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     max-width: 600px;
     margin: auto;
@@ -317,8 +320,6 @@
     font-size: 16px;
     text-align: center;
     margin-top: 15px;
-
-    cursor: pointer;
 }
 
 .famous_player p:hover {
@@ -347,8 +348,6 @@
 
 
 .player_button {
-    cursor: pointer;
-
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
@@ -386,8 +385,6 @@
     font-family: 'Poppins';
     font-size: 14px;
     margin-bottom: 0px;
-
-    cursor: pointer;
 }
 
 .first_row h2:hover {
@@ -406,8 +403,6 @@
     font-family: 'Poppins';
     font-size: 14px;
     margin-bottom: 0px;
-
-    cursor: pointer;
 }
 
 .second_row h2:hover {
@@ -432,8 +427,6 @@
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 12px;
-
-    cursor: pointer;
 }
 
 .promo_item {
@@ -467,7 +460,7 @@
 .promotion_content {
     font-family: 'poppins';
     font-weight: 200;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     max-width: 550px;
     margin: auto;
@@ -481,8 +474,6 @@
 }
 
 .promotion_button {
-    cursor: pointer;
-
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
@@ -533,11 +524,10 @@
 .company_column p {
     font-family: 'Poppins';
     font-weight: 200;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .company_button {
-    cursor: pointer;
     font-family: 'Poppins';
     font-weight: 700;
     margin: 15px 0px;
@@ -920,8 +910,6 @@
         position: relative;
         display: block;
         top: 33%;
-
-        cursor: pointer;
     }
 
     .hiden_play {
@@ -996,7 +984,7 @@
         position: absolute;
         top: 0px;
         left: 1%;
-        width: 74%;
+        width: 73%;
     }
 
     .show_content {
@@ -1017,5 +1005,20 @@
 
     .icon {
         bottom: 58px;
+    }
+
+    .club_email {
+        display: grid;
+    }
+
+    .email_type {
+        width: 90%;
+        margin:auto;
+    }
+
+    .subscribe {
+        margin:auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

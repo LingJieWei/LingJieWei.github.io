@@ -5,6 +5,7 @@
 
     <title>Product Detail</title>
     <link href="css/pd_style.css" rel="stylesheet" type="text/css">
+    <script src="js//assignment.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +28,8 @@
 
             </div>
 
+
+
             <div class="logo">
 
                 <a href="javascript:void(0);" class="icon" onclick="openNav()"><img src="img/bar.png" height="30"
@@ -37,13 +40,13 @@
 
                 <div class="h_link">
 
-                    <a id="home" href="index.html">HOME</a>
+                    <a id="home" class="pointer" href="index.html">HOME</a>
                     <a class="promotion_link" href="">PROMOTION</a>
-                    <a class="" href="catalog.html">PRODUCTS & SERVICES</a>
-                    <a class="" href="#">PLAYER</a>
-                    <a class="" href="#">COMPANY</a>
-                    <a class="" href="#">BLOG</a>
-                    <a class="" href="#">CONTACT</a>
+                    <a id="ps" class="pointer" href="catalog.html">PRODUCTS & SERVICES</a>
+                    <a class="" href="">PLAYER</a>
+                    <a class="" href="">COMPANY</a>
+                    <a class="" href="">BLOG</a>
+                    <a class="" href="">CONTACT</a>
 
                 </div>
 
@@ -53,22 +56,22 @@
                             height="35" width="" /></a>
 
                     <div class="overlay-content">
-                        <a href="index.html">HOME</a>
+                        <a class="pointer" href="index.html">HOME</a>
                         <a class="promotion_link" href="index.html">PROMOTION</a>
-                        <a class="" href="catalog.html">PRODUCTS & SERVICES</a>
-                        <a class="" href="#">PLAYER</a>
-                        <a class="" href="#">COMPANY</a>
-                        <a class="" href="#">BLOG</a>
-                        <a class="" href="#">CONTACT</a>
+                        <a class="pointer" href="catalog.html">PRODUCTS & SERVICES</a>
+                        <a class="" href="">PLAYER</a>
+                        <a class="" href="">COMPANY</a>
+                        <a class="" href="">BLOG</a>
+                        <a class="" href="">CONTACT</a>
                     </div>
 
                 </div>
 
                 <div class="h_logo">
 
-                    <a href="cart.html"><img class="shop" src="img/shopcart.png" height="16" width="" /></a>
-                    <a href="#"><img class="" src="img/heart.png" height="16" width="" /></a>
-                    <a href="#"><img class="" src="img/user.png" height="16" width="" /></a>
+                    <a href="cart.html"><img class="shop" id="sc" src="img/shopcart.png" height="16" width="" /></a>
+                    <a href="check_out.html"><img class="" src="img/check.png" height="16" width="" /></a>
+                    <img class="" src="img/user.png" height="16" width="" />
 
                 </div>
 
@@ -79,7 +82,8 @@
         <div class="location">
 
             <h1>Product Name</h1>
-            <a href="catalog.html"><img class="" src="img/left_arrow.png" height="12" width="" /> &ensp;Continue Shopping</a>
+            <a href="catalog.html"><img class="" src="img/left_arrow.png" height="12" width="" /> &ensp;Continue
+                Shopping</a>
 
         </div>
 
@@ -123,19 +127,19 @@
 
                     <div class="plus_min_button">
 
-                        <a href="#"><img class="" src="img/plus.png" height="20px" width="" /></a>
+                        <img class="" src="img/plus.png" height="20px" width="" />
 
                         <h1>1</h1>
 
-                        <a href="#"><img class="" src="img/minus.png" height="20px" width="" /></a>
+                        <img class="" src="img/minus.png" height="20px" width="" />
 
                     </div>
 
-                        <button class="show_button" type="button">Add to cart</button>
+                    <button class="show_button" type="button">Add to cart</button>
 
                     <div class="heart_column">
 
-                        <a href="#"><img class="" src="img/heart.png" height="" width="9%" /></a>
+                        <img class="" src="img/heart.png" height="" width="9%" />
 
                     </div>
 
@@ -259,8 +263,11 @@
                             </div>
 
                             <div class="promo_item">
-                                <a href="product_detail.html"><img class="item_4" src="img/blue_dart.jpg" height="" width="" /></a>
-                                <a href="product_detail.html"><h2>Unicorn Eclipse Dartboard</h2></a>
+                                <a href="product_detail.html"><img class="item_4" src="img/blue_dart.jpg" height=""
+                                        width="" /></a>
+                                <a href="product_detail.html">
+                                    <h2>Unicorn Eclipse Dartboard</h2>
+                                </a>
 
                                 <div class="price">
 
@@ -400,9 +407,12 @@
                 </div>
 
                 <div class="social_img">
-                    <a href="http://facebook.com/" class=""><img class="social_png" src="img/facebook.png" height="" width="" /></a>
-                    <a href="http://twitter.com/" class=""><img class="social_png" src="img/twitter.png" height="" width="" /></a>
-                    <a href="http://nstagram.com/" class=""><img class="social_png" src="img/instagram.png" height="" width="" /></a>
+                    <a href="http://facebook.com/" class=""><img class="social_png" src="img/facebook.png" height=""
+                            width="" /></a>
+                    <a href="http://twitter.com/" class=""><img class="social_png" src="img/twitter.png" height=""
+                            width="" /></a>
+                    <a href="http://nstagram.com/" class=""><img class="social_png" src="img/instagram.png" height=""
+                            width="" /></a>
                 </div>
 
                 <div class="copyright">
@@ -414,7 +424,8 @@
                     <div class="pns">
 
                         <h1>Products & Services</h1>
-                        <a href="catalog.html" class=""><img class="social_png" src="img/down_arrow.png" height="" width="" /></a>
+                        <a href="catalog.html" class=""><img class="social_png" src="img/down_arrow.png" height=""
+                                width="" /></a>
 
                     </div>
 
@@ -429,7 +440,9 @@
             </div>
 
             <div class="service">
-                <a href="catalog.html" class="link"><h1>PRODUCT</h1></a>
+                <a href="catalog.html" class="link">
+                    <h1>PRODUCT</h1>
+                </a>
                 <h1>PROMOTION</h1>
                 <h1>PLAYER</h1>
                 <h1>GIFT CARD</h1>
@@ -445,29 +458,24 @@
 
             <div class="contact">
                 <h1>CONTACT</h1>
-                <a href= "tel:+0380808080" class="link"><p>+ 03 8080 8080</p></a>
-                <a href="http://gmail.com/" class="link"><p>DUCKDART@GMAIL.COM</p></a>
-            </div> 
+                <a href="tel:+0380808080" class="link">
+                    <p>+ 03 8080 8080</p>
+                </a>
+                <a href="http://gmail.com/" class="link">
+                    <p>DUCKDART@GMAIL.COM</p>
+                </a>
+            </div>
 
             <div class="address">
-                <a href="http://maps.google.com/" class="link"><p>3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,
-                    An Nuzhah, Riyadh 12474,
-                    Saudi Arabia
-                </p></a>
+                <a href="http://maps.google.com/" class="link">
+                    <p>3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,
+                        An Nuzhah, Riyadh 12474,
+                        Saudi Arabia
+                    </p>
+                </a>
             </div>
-            
+
         </div>
-
-        <script>
-            function openNav() {
-                document.getElementById("myNav").style.width = "100%";
-            }
-
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-            }
-
-        </script>
 
     </div>
 

@@ -5,6 +5,8 @@
 
     <title>Home Page</title>
     <link href="css/index_style.css" rel="stylesheet" type="text/css">
+    <link href="css/head_foot.css" rel="stylesheet" type="text/css">
+    <script src="js//assignment.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,13 +41,13 @@
 
                 <div class="h_link">
 
-                    <a id="home" href="index.html">HOME</a>
+                    <a id="home" class="pointer" href="index.html">HOME</a>
                     <a class="promotion_link" href="">PROMOTION</a>
-                    <a class="" href="catalog.html">PRODUCTS & SERVICES</a>
-                    <a class="" href="#">PLAYER</a>
-                    <a class="" href="#">COMPANY</a>
-                    <a class="" href="#">BLOG</a>
-                    <a class="" href="#">CONTACT</a>
+                    <a id="ps" class="pointer" href="catalog.html">PRODUCTS & SERVICES</a>
+                    <a class="" href="">PLAYER</a>
+                    <a class="" href="">COMPANY</a>
+                    <a class="" href="">BLOG</a>
+                    <a class="" href="">CONTACT</a>
 
                 </div>
 
@@ -55,22 +57,22 @@
                             height="35" width="" /></a>
 
                     <div class="overlay-content">
-                        <a href="index.html">HOME</a>
+                        <a class="pointer" href="index.html">HOME</a>
                         <a class="promotion_link" href="index.html">PROMOTION</a>
-                        <a class="" href="catalog.html">PRODUCTS & SERVICES</a>
-                        <a class="" href="#">PLAYER</a>
-                        <a class="" href="#">COMPANY</a>
-                        <a class="" href="#">BLOG</a>
-                        <a class="" href="#">CONTACT</a>
+                        <a class="pointer" href="catalog.html">PRODUCTS & SERVICES</a>
+                        <a class="" href="">PLAYER</a>
+                        <a class="" href="">COMPANY</a>
+                        <a class="" href="">BLOG</a>
+                        <a class="" href="">CONTACT</a>
                     </div>
 
                 </div>
 
                 <div class="h_logo">
 
-                    <a href="cart.html"><img class="shop" src="img/shopcart.png" height="16" width="" /></a>
-                    <a href="#"><img class="" src="img/heart.png" height="16" width="" /></a>
-                    <a href="#"><img class="" src="img/user.png" height="16" width="" /></a>
+                    <a href="cart.html"><img class="shop" id="sc" src="img/shopcart.png" height="16" width="" /></a>
+                    <a href="check_out.html"><img class="" src="img/check.png" height="16" width="" /></a>
+                    <img class="" src="img/user.png" height="16" width="" />
 
                 </div>
 
@@ -120,7 +122,9 @@
                     <img class="product_img" src="img/dartboard.jpg" height="" width="" />
 
                     <div class="product_word">
-                        <a href="catalog.html" class="link"><h1>DartBoards</h1></a>
+                        <a href="catalog.html" class="link">
+                            <h1>DartBoards</h1>
+                        </a>
                     </div>
                 </div>
 
@@ -128,7 +132,9 @@
                     <img class="product_img" id="dart_img" src="img/dart2.png" height="" width="" />
 
                     <div class="product_word">
-                        <a href="catalog.html" class="link"><h1>Darts</h1></a>
+                        <a href="catalog.html" class="link">
+                            <h1>Darts</h1>
+                        </a>
                     </div>
                 </div>
 
@@ -136,7 +142,9 @@
                     <img class="product_img" src="img/accessories.jpeg" height="" width="" />
 
                     <div class="product_word">
-                        <a href="catalog.html" class="link"><h1>Accessories</h1></a>
+                        <a href="catalog.html" class="link">
+                            <h1>Accessories</h1>
+                        </a>
                     </div>
                 </div>
 
@@ -263,7 +271,7 @@
 
                         <div class="promo_item" id="safe_item">
                             <a href="#"><img class="item_1" src="img/dartboard.jpg" height="" width="" /></a>
-                            <h2>Target Echo Soft Tip Darts</h2>
+                            <h2>Unicorn Eclipse Dartboard </h2>
 
                             <div class="price">
 
@@ -320,8 +328,11 @@
                     </div>
 
                     <div class="promo_item">
-                        <a href="product_detail.html"><img class="item_4" src="img/blue_dart.jpg" height="" width="" /></a>
-                        <a href="product_detail.html"><h2>Unicorn Eclipse Dartboard</h2></a>
+                        <a href="product_detail.html"><img class="item_4" src="img/blue_dart.jpg" height=""
+                                width="" /></a>
+                        <a href="product_detail.html">
+                            <h2>Target Echo Soft Tip Darts</h2>
+                        </a>
 
                         <div class="price">
 
@@ -452,17 +463,6 @@
         </div>
 
     </div>
-
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-
-    </script>
 
 </body>
 

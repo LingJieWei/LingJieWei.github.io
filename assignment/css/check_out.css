@@ -11,7 +11,7 @@
     justify-content: center;
     font-family: 'inter';
     font-size: 24px;
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 .h_link a:hover {
@@ -47,7 +47,7 @@
 
 .h_link a {
     font-family: 'inter';
-    font-size: 13px;
+    font-size: 15px;
     padding: 0px 6px;
     text-decoration: none;
     color: black;
@@ -55,11 +55,18 @@
 
 #home {
     color: rgb(145, 145, 145);
-    ;
 }
 
-.h_logo a {
+#ps {
+    color: rgb(145, 145, 145);
+}   
+
+.h_logo img {
     padding: 0px 6px;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 .overlay {
@@ -140,10 +147,6 @@
     padding: 40px;
 }
 
-.service h1 {
-    cursor: pointer;
-}
-
 .service h1:hover {
     color: rgb(115, 115, 115);
 }
@@ -159,7 +162,6 @@
 
 .blog p {
     font-size: 13px;
-    cursor: pointer;
 }
 
 .contact {
@@ -295,6 +297,10 @@
     font-size: 14px;
 }
 
+input[type="checkbox" i] {
+    transform: scale(1.4);
+}
+
 .payment_detail {
     font-family: 'poppins';
     width: 40%;
@@ -326,14 +332,14 @@
 
 
 #pd_checkbox2 p {
-    padding-right: 95px;
+    padding-right: 98px;
     font-family: 'poppins';
     font-size: 15px;
 }
 
 
 #pd_checkbox3 p {
-    padding-right: 59px;
+    padding-right: 64px;
     font-family: 'poppins'; 
     font-size: 15px;
 }
@@ -474,7 +480,6 @@
     border: 1px solid black;
     font-family: 'inter';
     width: 30%;
-    cursor: pointer;
 }
 
 .redeem_button:hover {
@@ -548,7 +553,6 @@
     border: 2px solid;
     width: 101%;
     font-family: 'inter';
-    cursor: pointer;
 }
 
 .check_button:hover {
@@ -560,6 +564,11 @@
 .link {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.links {
+    text-decoration: none;
     cursor: pointer;
 }
 
