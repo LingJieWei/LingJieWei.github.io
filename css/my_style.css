@@ -51,10 +51,6 @@
   color: deepskyblue  ;
 }
 
-.shadow-lg {
-  box-shadow: 0 0rem 0rem rgba(255, 255, 255, 0.175)!important;
-}
-
 .logofbig {
   box-shadow: 5px 5px 5px 5px #e7e7e7;
   border: none;
