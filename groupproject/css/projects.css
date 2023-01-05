@@ -111,6 +111,11 @@ p{
     transition: 0.5s;
 }
 
+#container {
+    max-width: 1920px;
+    margin: auto;
+}
+
 .closebtn {
     position: absolute;
     top: 30px;

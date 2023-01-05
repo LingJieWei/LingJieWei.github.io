@@ -1,5 +1,6 @@
 #container {
-    background: #F0F0F0;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .head_of_header {
