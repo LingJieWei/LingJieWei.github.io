@@ -40,7 +40,7 @@
 .header_menu {
     border-bottom: 3px solid black ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px 10px 10px 10px;
 }
 
@@ -99,9 +99,9 @@
 }
 
 .first_content {
-    margin: 20px 10px 10px 10px;
+    margin: 20px 20px 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .web_design {
@@ -109,14 +109,15 @@
 }
 
 .intro_fc {
-    max-width: 60%;
+    max-width: 55%;
     padding-top: 8%;
-    margin-left: 30px;
+    margin: 0px 10px;
     padding-right: 0px;
     border-bottom: 5px solid black;
 }
 
 .intro_fc p{
+    margin: 0px 10px;
     text-align: justify;
     font-size: 19px;
     font-family: 'Spectral', serif;
@@ -326,10 +327,6 @@
 @media screen and (max-width: 1200px) { 
     .intro_fc {
         padding-top: 3%;
-    }
-
-    .we_believe {
-        width: 100%;
     }
 
     .right_content {

@@ -40,7 +40,7 @@
 .header_menu {
     border-bottom: 3px solid black ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px 10px 10px 10px;
 }
 
