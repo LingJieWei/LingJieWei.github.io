@@ -284,22 +284,6 @@ input[type=submit] {
   font-weight: 700;
 }
 
-.header_menu {
-  border-bottom: 3px solid black ;
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 10px 10px 10px;
-}
-
-.header_menu a {
-  text-decoration: none;  
-  color: black;
-  font-size: 19px;
-  font-family: 'Spectral', serif;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
 .baricon {
   display: none;
 }
