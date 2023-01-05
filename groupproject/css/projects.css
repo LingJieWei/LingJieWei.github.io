@@ -1,6 +1,11 @@
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
+#container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.box {
+    max-width: 1400px;
+    margin: auto;
     position: relative;
 }
 
@@ -107,10 +112,7 @@ p{
     transition: 0.5s;
 }
 
-#container {
-    max-width: 1920px;
-    margin: auto;
-}
+
 
 .closebtn {
     position: absolute;
