@@ -60,10 +60,6 @@ input[type=submit] {
     
     }
 
-    #container {
-      background: #F0F0F0;
-  }
-  
   .head_of_header {
       display: flex;
       justify-content: space-between;
