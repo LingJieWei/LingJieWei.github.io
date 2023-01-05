@@ -199,7 +199,7 @@ p {
     }
 
     div.section-69 {
-            display: -webkit-box;
+    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -213,7 +213,13 @@ p {
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
+
+    margin: 50px;
+    padding: 50px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
     }
+
 
 }
 
